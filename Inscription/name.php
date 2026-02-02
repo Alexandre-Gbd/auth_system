@@ -6,13 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="traitement_formulaire/Inscription/form.php" method="POST">
+    <form action="form.php" method="POST">
         <h2>FORMULAIRE D'INSCRIPTION</h2>
         <p>inscrivez votre Nom et vos Prenoms </p>
         <input type="text" name="nom" id="n" placeholder="Nom...">
         <input type="text" name="prenoms" id="pn" placeholder="Prenoms...">
-        <input type="submit" value="Suivant">
-    
+        <input type="submit" value=" Suivant">
     </form>
 </body>
 </html>

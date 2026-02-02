@@ -1,5 +1,5 @@
 <?php
-require 'config/databases.php';
+require 'C:\wamp64\www\auth_system\auth_system\config\databases.php';
 session_start();
    if (isset($_POST['tel'])
     ){
@@ -8,9 +8,9 @@ session_start();
     echo"inscrivez votre numero mobile et votre mots de passe";
     }else{
     $tel=htmlspecialchars($_POST['tel']);
-    $password=password_hash( $_POST['password_conf'],PASSWORD_DEFAULT);
+    $password=password_hash( $_POST['password'],PASSWORD_DEFAULT);
     //requetes
-$sql="SELECT FROM user( password,tel) WHERE  tel=? AND password=?";
+$sql="SELECT * FROM user WHERE  telephone=? AND password=?";
 $stmt=$pdo->prepare($sql);
 $stmt->execute([$tel,$password]);
 if ($stmt->rowCount()>0) {

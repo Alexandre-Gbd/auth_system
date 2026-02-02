@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="traitement_formulaire/Se connecter/form_con.php" method="POST">
+    <form action="form_con.php" method="POST">
         <h2>Se connecter</h2>
         <input type="tel" name="tel" id="n" placeholder="+2290145...">
         <input type="password" name="password" id="pn" placeholder="***...">

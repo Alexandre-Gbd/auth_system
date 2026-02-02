@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="traitement_formulaire/Se connecter/form_con1.php" method="POST">
+    <form action="traitement_form_con/form_con1.php" method="POST">
         <h2>Se connecter</h2>
         <input type="email" name="email" id="e" placeholder="contact@gail.com">
         <input type="password" name="password" id="pd" placeholder="***...">

@@ -6,9 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-   <form action="traitement_formulaire/Inscription/form3.php" method="POST"> 
-         <p>inscrivez votre adresse email </p>
+   <form action="traitement_form_ins/form3.php" method="POST"> 
+         <p>inscrivez votre adresse email</p>
         <input type="email" name="email" id="n" placeholder="email...">
+                <a href="email.php">Utilisez votre adresse numero mobile</a>
             <input type="submit" value="Suivant">
     </form>
     </body>

@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-    <form action="form.php" method="POST">
+    <form action="" method="POST">
                     <p>créer un mot de passe . </p>
         <input type="password" name="password" id="p" placeholder="****...">
                             <p> Confirmer le mot de passe . </p>

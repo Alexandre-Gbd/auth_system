@@ -9,9 +9,7 @@ try {
     $user,$password
     );
     $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION );
-    echo"connexion reussi";
-
-} catch (PDOException $e) {
+} catch (PDOException $e){
         echo"echec de connexion".$e->getMessage();
 
 ;
